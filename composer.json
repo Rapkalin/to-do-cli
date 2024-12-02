@@ -1,0 +1,25 @@
+{
+    "name": "r.kalinowski/todo-challenge",
+    "description": "A little challenge to code a TODO program in cli with SQLite",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rapkalin",
+            "email": "raphael@myminicom.com"
+        }
+    ],
+    "require": {
+      "php": "^8.2",
+      "ext-pdo": "*",
+      "ext-sqlite3": "*"
+    },
+
+    "require-dev": {
+        "symfony/var-dumper": "^6.4"
+    }
+}
